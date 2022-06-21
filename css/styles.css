@@ -1062,6 +1062,8 @@ img {
 .form-checkbox {
   margin-bottom: 30px;
   margin-top: 20px;
+  min-width: 425px;
+  margin-left: 12px;
 }
 
 .modal-check:checked + .check-text::before {
@@ -1101,6 +1103,7 @@ img {
 
 .agree-link {
   margin-left: 3px;
+  color: var(--brand-color);
 }
 
 .form-checkbox input[type='checkbox'] {
